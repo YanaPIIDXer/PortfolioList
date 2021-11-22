@@ -6,7 +6,7 @@
 
 |フロントエンド|バックエンド|DB|
 |---|---|---|
-|Firebase Hosting|AWS EC2 + Docker|AWS RDS|
+|Firebase Hosting|AWS EC2 + Docker|AWS RDS + MySQL|
 
 ※バックエンド側のSSL対応には自己署名証明書を利用しています。  
 
