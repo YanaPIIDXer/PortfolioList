@@ -40,3 +40,10 @@ resource "aws_subnet" "private3" {
         Name = "${var.name_prefix}_Subnet_Private3"
     }
 }
+
+resource "aws_internet_gateway" "gw" {
+    vpc_id = aws_vpc.vpc.id
+    tags = {
+        Name = "${var.name_prefix}_gw"
+    }
+}
