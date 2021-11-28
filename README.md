@@ -14,7 +14,6 @@
 
 |key|value|
 |---|---|
-|バックエンド|AWS ECS(Fargate)|
 |インフラコード|Terraform|
 
 ## 診療予約システム
